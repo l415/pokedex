@@ -1,0 +1,110 @@
+.card {
+  width: calc(33.33% - 20px); /* Ajuste del ancho para tres tarjetas por línea */
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.996), rgba(125, 114, 114, 0.3));
+  min-width: 150px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.fire { background-color: rgb(255, 96, 48); }
+.water { background-color: rgb(104, 144, 240); }
+.grass { background-color: rgb(120, 200, 80); }
+.electric { background-color: rgb(248, 208, 48); }
+.normal { background-color: rgb(168, 168, 120); }
+.fighting { background-color: rgb(192, 48, 40); }
+.poison { background-color: rgb(160, 64, 160); }
+.ground { background-color: rgb(224, 192, 104); }
+.flying { background-color: rgb(168, 144, 240); }
+.psychic { background-color: rgb(248, 88, 136); }
+.bug { background-color: rgb(168, 184, 32); }
+.rock { background-color: rgb(184, 160, 56); }
+.ghost { background-color: rgb(112, 88, 152); }
+.dragon { background-color: rgb(112, 56, 248); }
+.dark { background-color: rgb(112, 88, 72); }
+.steel { background-color: rgb(184, 184, 208); }
+.fairy { background-color: rgb(238, 153, 172); }
+.ice { background-color: rgb(152, 216, 216); }
+
+.hidden {
+  display: none;
+}
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  display: inline-block;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cry-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cry-button:hover {
+  background-color: #d32f2f;
+}
+
+.grass {
+  background-color: #4CAF50;
+}
+
+.fire {
+  background-color: #FF5722;
+}
+
+.water {
+  background-color: #2196F3;
+}
+
+.bug {
+  background-color: #8BC34A;
+}
+
+.normal {
+  background-color: #9E9E9E;
+}
+
+/* Agrega más clases de tipo según sea necesario */
